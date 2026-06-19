@@ -1,18 +1,17 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
 
-body {
-  background: #07446a;
+body{
+  background-color: #07446a;
   color: #1d1d1d;
 }
 
-/* Navbar */
-.navbar {
-  background: white;
+.navbar{
+  background-color: white;
   min-height: 70px;
   padding: 15px 60px;
   display: flex;
@@ -21,7 +20,7 @@ body {
   position: relative;
 }
 
-.logo {
+.logo{
   color: #2386c7;
   font-size: 24px;
   font-weight: bold;
@@ -30,57 +29,56 @@ body {
   gap: 10px;
 }
 
-.logo img {
+.logo img{
   width: 40px;
   height: 40px;
   object-fit: contain;
 }
 
-.nav-links {
+.navlinks{
   list-style: none;
   display: flex;
-  gap: 35px;
   align-items: center;
+  gap: 35px;
 }
 
-.nav-links a {
-  text-decoration: none;
+.navlinks a{
   color: #222;
+  text-decoration: none;
   font-size: 14px;
 }
 
-.nav-links a:hover {
+.navlinks a:hover{
   color: #2386c7;
 }
 
-.quote-btn {
-  background: white;
+.quotebtn{
+  background-color: white;
   border: 1px solid #2386c7;
   padding: 10px 18px;
   border-radius: 6px;
   cursor: pointer;
 }
 
-.mobile-quote {
+.mobilequote{
   display: none;
 }
 
-#menu-toggle {
+#menutoggle{
   display: none;
 }
 
-.menu-btn {
+.menubtn{
   display: none;
   font-size: 30px;
   color: #2386c7;
   cursor: pointer;
 }
 
-/* Hero */
-.hero {
+.hero{
   width: 88%;
   margin: 70px auto 45px;
-  background: white;
+  background-color: white;
   border-radius: 28px;
   padding: 35px 45px;
   display: flex;
@@ -89,33 +87,33 @@ body {
   gap: 30px;
 }
 
-.hero-text {
+.herotext{
   flex: 1;
 }
 
-.hero-text h1 {
+.herotext h1{
   font-size: 38px;
   line-height: 1.3;
   margin-bottom: 12px;
 }
 
-.hero-text p {
+.herotext p{
   color: #777;
   font-size: 16px;
   margin-bottom: 25px;
 }
 
-.hero-buttons {
+.herobuttons{
   display: flex;
   gap: 15px;
   margin-bottom: 22px;
   flex-wrap: wrap;
 }
 
-.hero-buttons button,
+.herobuttons button,
 .card button,
-.cta button {
-  background: #1686d9;
+.cta button{
+  background-color: #1686d9;
   color: white;
   border: none;
   padding: 12px 22px;
@@ -123,12 +121,12 @@ body {
   cursor: pointer;
 }
 
-.light-btn {
-  background: #e5f4ff !important;
+.lightbtn{
+  background-color: #e5f4ff !important;
   color: #1686d9 !important;
 }
 
-.features {
+.features{
   display: flex;
   gap: 20px;
   color: #777;
@@ -136,12 +134,12 @@ body {
   flex-wrap: wrap;
 }
 
-.hero-img {
+.heroimg{
   flex: 1;
   text-align: center;
 }
 
-.hero-img img {
+.heroimg img{
   width: 100%;
   max-width: 420px;
   height: 320px;
@@ -149,28 +147,27 @@ body {
   border-radius: 20px;
 }
 
-/* Services */
-.services {
+.services{
   width: 76%;
   margin: auto;
 }
 
 .services h2,
 .middle h2,
-.process h2 {
+.process h2{
   font-size: 22px;
   margin-bottom: 22px;
   color: white;
 }
 
-.cards {
+.cards{
   display: flex;
   justify-content: space-between;
   gap: 25px;
 }
 
-.card {
-  background: white;
+.card{
+  background-color: white;
   border-radius: 15px;
   width: 100%;
   min-height: 250px;
@@ -178,32 +175,31 @@ body {
   text-align: center;
 }
 
-.icon img {
+.icon img{
   width: 50px;
   height: 50px;
   object-fit: contain;
   margin-bottom: 10px;
 }
 
-.card h3 {
+.card h3{
   font-size: 15px;
   margin-bottom: 12px;
 }
 
-.card p {
+.card p{
   font-size: 12px;
   color: #666;
   margin-bottom: 18px;
   line-height: 1.5;
 }
 
-.card button {
+.card button{
   padding: 7px 18px;
   font-size: 12px;
 }
 
-/* Middle */
-.middle {
+.middle{
   width: 72%;
   margin: 65px auto 45px;
   display: flex;
@@ -211,8 +207,8 @@ body {
   gap: 70px;
 }
 
-.review-box {
-  background: white;
+.reviewbox{
+  background-color: white;
   border-radius: 18px;
   padding: 18px;
   display: flex;
@@ -220,55 +216,54 @@ body {
   text-align: center;
 }
 
-.review img {
+.review img{
   width: 60px;
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.review p {
+.review p{
   color: #1686d9;
   font-size: 13px;
 }
 
-.review small {
+.review small{
   color: #777;
   font-size: 10px;
 }
 
-.review h4 {
+.review h4{
   font-size: 12px;
   margin-top: 4px;
 }
 
-.choose {
+.choose{
   color: white;
 }
 
-.choose p {
+.choose p{
   margin-bottom: 14px;
 }
 
-/* Process */
-.process {
+.process{
   width: 72%;
   margin: 40px auto 60px;
 }
 
-.steps {
+.steps{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.step {
+.step{
   text-align: center;
   color: white;
 }
 
-.circle {
-  background: white;
+.circle{
+  background-color: white;
   width: 60px;
   height: 60px;
   margin: auto;
@@ -278,171 +273,172 @@ body {
   justify-content: center;
 }
 
-.circle img {
+.circle img{
   width: 30px;
   height: 30px;
   object-fit: contain;
 }
 
-.step p {
+.step p{
   margin-top: 10px;
   font-size: 12px;
 }
 
-.line {
+.line{
   height: 2px;
-  background: #8eb7d0;
+  background-color: #8eb7d0;
   width: 160px;
   margin: 0 10px;
 }
 
-/* CTA */
-.cta {
-  background: #000000;
+.cta{
+  background-color: #000;
   color: white;
   text-align: center;
   padding: 35px 15px;
 }
 
-.cta h2 {
+.cta h2{
   font-size: 28px;
   margin-bottom: 15px;
 }
 
-/* Footer */
-footer {
+footer{
   display: flex;
   justify-content: center;
   gap: 160px;
   text-align: center;
   padding: 22px 20px;
-  background: #024169;
+  background-color: #024169;
 }
 
-footer h4 {
+footer h4{
   font-size: 13px;
 }
 
-footer p {
+footer p{
   font-size: 12px;
   margin-top: 4px;
 }
 
-/* Tablet */
-@media (max-width: 992px) {
-  .navbar {
+/* old test */
+/* .heroimg img{
+  borde-radius: 20px;
+} */
+
+@media(max-width: 992px){
+  .navbar{
     padding: 15px 25px;
   }
 
-  .nav-links {
+  .navlinks{
     gap: 18px;
   }
 
-  .hero {
+  .hero{
     flex-direction: column;
     text-align: center;
   }
 
   .features,
-  .hero-buttons {
+  .herobuttons{
     justify-content: center;
   }
 
   .cards,
-  .middle {
+  .middle{
     flex-direction: column;
   }
 
   .services,
   .middle,
-  .process {
+  .process{
     width: 90%;
   }
 
-  footer {
+  footer{
     gap: 50px;
   }
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  .navbar {
+@media(max-width: 600px){
+  .navbar{
     padding: 15px 20px;
   }
 
-  .menu-btn {
+  .menubtn{
     display: block;
   }
 
-  .desktop-quote {
+  .desktopquote{
     display: none;
   }
 
-  .nav-links {
+  .navlinks{
     position: absolute;
     top: 70px;
     left: 0;
     width: 100%;
-    background: white;
+    background-color: white;
     flex-direction: column;
     gap: 0;
     display: none;
     padding: 15px 0;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.12);
     z-index: 10;
   }
 
-  .nav-links li {
+  .navlinks li{
     width: 100%;
     text-align: center;
   }
 
-  .nav-links a {
+  .navlinks a{
     display: block;
     padding: 13px 0;
     font-size: 15px;
   }
 
-  .mobile-quote {
+  .mobilequote{
     display: inline-block;
     margin-top: 10px;
   }
 
-  #menu-toggle:checked ~ .nav-links {
+  #menutoggle:checked ~ .navlinks{
     display: flex;
   }
 
-  .hero {
+  .hero{
     width: 95%;
     padding: 25px 18px;
     margin-top: 35px;
   }
 
-  .hero-text h1 {
+  .herotext h1{
     font-size: 28px;
   }
 
-  .hero-img img {
+  .heroimg img{
     width: 100%;
     max-width: 320px;
     height: auto;
   }
 
-  .review-box {
+  .reviewbox{
     flex-direction: column;
   }
 
-  .steps {
+  .steps{
     flex-direction: column;
     gap: 20px;
   }
 
-  .line {
+  .line{
     width: 2px;
     height: 40px;
   }
 
-  footer {
+  footer{
     flex-direction: column;
     gap: 20px;
   }
